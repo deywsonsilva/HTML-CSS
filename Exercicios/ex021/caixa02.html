@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(159, 119, 196);
+            margin: 5px;
+        }
+        header {
+            background-color: rgb(125, 93, 155);
+            margin: 0px;
+            padding: 1px 0px 5px 12px;
+            
+            
+        }
+        footer {
+            background-color: white;
+            margin: 25px auto;
+            padding: 3px;
+            border-radius: 10px;
+            width: 1350px;
+            
+        }
+
+        nav {
+            background-color: rgb(65, 156, 103);
+            width: 200px;
+            text-align: center;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.795);
+
+        }
+
+        section#principal > h1 {
+            background-color: rgb(179, 134, 51);
+            width: 500px;
+            text-align: center;
+            box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.541);
+            margin: 20px auto 40px auto;
+            border-radius: 10px;
+            
+        }
+
+
+        footer > p {
+            text-align: center;
+            margin: 0px;
+
+        }
+
+        main {
+            background-color: white;
+            padding: 5px 22px 5px;
+            border-radius: 20px 0px;
+        }
+
+        #comidas > article > p {
+            color: red;
+        }
+
+        #comidas > article > h2 {
+            color: blue;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <section id="principal">
+            <h1>Página 2</h1>
+            <nav>
+                <a href="caixa01.html">Home</a>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section id="esporte">
+            <article>
+                <h2>Noticia do Brasil</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi autem laboriosam fugiat doloribus nesciunt impedit repellat molestiae corporis, natus voluptatem accusantium animi accusamus pariatur similique tempore expedita, minus vel.
+                <aside>
+                    <p>Artigo feito por Josè da Silva</p>
+                </aside>
+            </article>
+        </section>
+        <section id="comidas">
+            <article>
+                <h1>Comidas muito famosas</h1>
+                <h2>Comidas mais famosas</h2>
+                <h2>A</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est labore optio autem impedit tempora tempore, ducimus similique possimus inventore accusamus architecto iure sit id consequatur exercitationem praesentium quis tenetur eius?</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por ExpEmpresas</p>
+    </footer>
+    <div id="bola"> </div>
+</body>
+</html>
