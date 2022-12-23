@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 550px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        caption {
+            font-weight: bold;
+            font-size: 1.3em;
+            padding: 8px;
+        }
+        .cnome {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Maria clara</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Paulo</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Jorge</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Lara</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Caminhoneira</td>
+        </tr>
+        <tr>
+            <td>Marcos</td>
+            <td>M</td>
+            <td>49</td>
+            <td>Apresentador</td>
+        </tr>
+        <tr>
+            <td>Rebecca</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Atriz</td>
+        </tr>
+    </table>
+</body>
+</html>
