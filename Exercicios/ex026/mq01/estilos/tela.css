@@ -11,3 +11,39 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
+
+header {
+    background-color: lightgreen;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.315);
+}
+
+header > h1 {
+    text-align: center;
+}
+
+li {
+    margin-left: 21px;
+    font-weight: bold;
+    width: 83px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+article {
+    background-color: aquamarine;
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.315);
+}
+
+h2 {
+    text-align: center;
+}
+li:hover {
+    background-color: rgb(106, 175, 106);
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    color: lightgreen;
+}
